@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+
+    background-color: rgb(81, 81, 167);
+}
+
+
+#pag {
+    color: white;
+}
+
+#pablo {
+    background-color: rgb(255, 35, 35);
+    text-align: center;
+    padding: 15px;
+}
+
+#writer::before {
+    content: '\270D';
+}
+
+#date1::before {
+    content: '\1F4C5';
+}
+
+#type::before {
+    content: '\1F97C';
+}
+
+#not {
+    background-color: rgb(179, 0, 0);
+    padding: 5px;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.418);
+}
+
+#date {
+    padding: 5px;
+    background-color: rgb(104, 1, 1);
+    text-align: center;
+}
+
+a {
+    color: rgba(255, 255, 255, 0.603);
+    padding: 10px;
+    text-decoration: none;
+    
+}
+
+#all {
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    color: black;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.404);
+}
+
+#title {
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    background-image: linear-gradient(rgb(192, 191, 191), white);
+
+}
+
+#subtitle {
+    text-indent: 30px;
+    font-size: 2em;
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
+
+.text {
+    padding: 10px;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    text-indent: 10px;
+
+}
+
+#video {
+    background-color: rgb(104, 104, 240);
+    margin: 0px -1px 30px -1px;
+    padding: 20px;
+    padding-bottom: 56%;
+    position: relative;
+
+}
+
+#video > iframe {
+    position: absolute;
+    top: 9%;
+    left: 9%;
+    height: 80%;
+    width: 80%;
+}
+
+footer {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
